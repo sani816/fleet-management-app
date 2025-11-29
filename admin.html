@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>admin page</title>
+    <link rel="stylesheet" href="admin.css">
 </head>
 <body>
     <nav class="navbar">
@@ -35,15 +36,16 @@
             <option value="bus">bus</option>
         </select><br><br>
         <lable>Driver name:</lable>
-        <input type="text" id="drivername" placeholder="enter driver name" required>
+        <input type="text" id="drivername" placeholder="enter driver name" required><br><br>
         <lable>Availability:</lable>
         <select id="isAvailable">
             <option value="available">available</option>
             <option value="Unavailable">Unavailable</option>
         </select><br><br>
         <button onclick="AddFleet()">Add Fleet</button>
-
     </sidebar>
     </div>
+    <div id="fleetCard"></div>
+    <script src="admin.js"></script>
 </body>
 </html>
