@@ -65,8 +65,8 @@ function deleteVehicle(index){
 }
 
 function clearFilter(){
-    document.getElementById("category filter").value="All"
-     document.getElementById("available filter").value="All"
+    document.getElementById("categoryfilter").value="All"
+     document.getElementById("availablefilter").value="All"
      displayFleetCard()
 }
 displayFleetCard()
