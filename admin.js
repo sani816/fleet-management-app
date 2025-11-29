@@ -18,6 +18,10 @@ function AddFleet(){
     }
     fleetdata.push(vehicle)
     displayFleetCard()
+    document.getElementById("reg.no").value=""
+    document.getElementById("category").value=""
+    document.getElementById("drivername").value=""
+    document.getElementById("isAvailable").value=""
 
 }
 
