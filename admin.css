@@ -14,3 +14,22 @@
     background-color: #333;
     margin-left: 80px;
 }
+#fleetCard{
+    flex-grow:1 ;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+}
+.sidebar{
+    width: 300px;
+    padding:20px;
+    border: 1px solid black;
+}
