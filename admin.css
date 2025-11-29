@@ -1,0 +1,16 @@
+*{
+   background-color:rgb(207, 181, 233);
+}
+.navbar{
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#333;
+}
+.filter{
+    background-color: #333;
+    margin-left: 80px;
+}
