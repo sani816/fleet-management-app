@@ -6,6 +6,44 @@
     <title>admin page</title>
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="filter">
+        <select id="category filter">
+            <option value="All">All</option>
+            <option value="Auto">Auto</option>
+            <option value="car">car</option>
+            <option value="truck">truck</option>
+            <option value="bus">bus</option>
+        </select>
+        <select id="available filter">
+            <option value="All">All</option>
+            <option value="available">available</option>
+            <option value="Unavailable">Unavailable</option>
+        </select>
+        <button onclick="clearFilter()">Clear filter</button>
+        </div>
+    </nav><br>
+    <div class="sidebar">
+    <sidebar>
+        <lable>Reg.No of vehicle:</lable>
+        <input type="text" id="reg.no" placeholder="enter reg.no" required><br><br>
+        <lable>Category:</lable>
+        <select id="category">
+            <option value="Auto">Auto</option>
+            <option value="car">car</option>
+            <option value="truck">truck</option>
+            <option value="bus">bus</option>
+        </select><br><br>
+        <lable>Driver name:</lable>
+        <input type="text" id="drivername" placeholder="enter driver name" required>
+        <lable>Availability:</lable>
+        <select id="isAvailable">
+            <option value="available">available</option>
+            <option value="Unavailable">Unavailable</option>
+        </select><br><br>
+        <button onclick="AddFleet()">Add Fleet</button>
+
+    </sidebar>
+    </div>
 </body>
 </html>
