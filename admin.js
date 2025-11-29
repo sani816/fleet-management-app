@@ -1,7 +1,7 @@
 let fleetdata=[];
 
 function AddFleet(){
-    let regno=document.getElementById("reg.no").value
+    let regno=document.getElementById("regno").value
     let category=document.getElementById("category").value
     let drivername=document.getElementById("drivername").value
     let isAvailable=document.getElementById("isAvailable").value
@@ -18,7 +18,7 @@ function AddFleet(){
     }
     fleetdata.push(vehicle)
     displayFleetCard()
-    document.getElementById("reg.no").value=""
+    document.getElementById("regno").value=""
     document.getElementById("category").value=""
     document.getElementById("drivername").value=""
     document.getElementById("isAvailable").value=""
